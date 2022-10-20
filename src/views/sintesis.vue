@@ -3,15 +3,20 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    figure.mb-5
+      .titulo-sexto.color-acento-botones
+        p.mb-0 
+          h3 Gestión de analítica de datos 
+          em Síntesis: Estadística básica
+
+    p.mb-5 En la siguiente figura se puede observar una síntesis del componente. Que abarca estadística básica, tipos de variables, diseño de instrumentos, recolección de datos, verificación de la calidad y los componentes de todos los elementos anteriores.
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

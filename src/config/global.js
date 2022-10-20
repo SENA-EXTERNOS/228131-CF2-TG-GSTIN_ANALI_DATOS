@@ -37,7 +37,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Introducción',
+        titulo: 'Estadística básica',
         desarrolloContenidos: true,
       },
 
@@ -45,27 +45,20 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Estadística básica',
+        titulo: 'Tipos de variables',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Tipos de variables',
+        titulo: 'Escalas de medición',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Escalas de medición',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
         titulo:
           'Diseño de instrumentos, recolección de datos, verificación de la calidad	',
         desarrolloContenidos: true,
