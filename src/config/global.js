@@ -14,6 +14,10 @@ export default {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
     ],
   },
   menuPrincipal: {
@@ -33,7 +37,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Estadística básica',
+        titulo: 'Introducción',
         desarrolloContenidos: true,
       },
 
@@ -41,22 +45,29 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Tipos de variables',
+        titulo: 'Estadística básica',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Escalas de medición',
+        titulo: 'Tipos de variables',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
+        titulo: 'Escalas de medición',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
         titulo:
-          'Diseño de instrumentos, recolección de datos, verificación de la calidad',
+          'Diseño de instrumentos, recolección de datos, verificación de la calidad	',
         desarrolloContenidos: true,
       },
     ],
