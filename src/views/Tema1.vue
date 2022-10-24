@@ -9,7 +9,7 @@
     
     p.mb-5 En este componente se trabajarán términos estadísticos como: población, muestra, submuestra censo, parámetros, estadísticos, tipos de muestreo: aleatorio simple, estratificado, sistemático (Martínez, 2019), (Lind et al. 2019) y (Vladimirovna et al. 2016). 
 
-    .row.mb-5
+    .row.justify-content-around.align-items-center.mb-5
       .col-lg-7.mb-4
         TabsA.color-acento-botones.mb-5
           .tarjeta.fca.p-4(titulo="Población")
@@ -58,26 +58,26 @@
 
     p.mb-5 El muestreo es un proceso o conjunto de métodos, para obtener una muestra finita de una población finita o infinita para estimar valores. A continuación, se pueden conocer los tipos de muestreo.
 
-    .row
+    .row.justify-content-around.align-items-center
       .col-3 
         figure
           img(src='@/assets/curso/temas/T1/img-2.svg')
       .col-9
         AcordionA.mb-5(tipo="a" clase-tarjeta="fcb")
-          .row(titulo="Muestreo aleatorio simple")
+          .row.justify-content-around.align-items-center(titulo="Muestreo aleatorio simple")
             .col-md-10.mb-4.mb-md-0
               p.mb-5 Es una técnica de muestreo donde todos los individuos que conforman la muestra tienen la misma probabilidad de ser elegidos. Si el individuo puede ser seleccionado más de una vez estamos en presencia de un muestreo aleatorio simple con reposición, en caso contrario, sería muestreo aleatorio simple sin reposición.
               h3.mb-3 Ejemplo:
               p.mb-5 Se tiene una población de 500 personas, se quiere sacar una muestra de 50 personas. Se asigna a las 500 personas un número y, de la misma forma que un sorteo de lotería, selecciona 50 números al azar. Es así como, la totalidad de estos números al azar sería la muestra de 50 personas.
 
               
-          .row(titulo="Muestreo aleatorio estratificado")
+          .row.justify-content-around.align-items-center(titulo="Muestreo aleatorio estratificado")
             .col-md-10.mb-4.mb-md-0
               p.mb-5 Este tipo de muestreo se utiliza cuando se quiere saber la relación entre los subgrupos o estratos por alguna característica o múltiples características en común. Por ejemplo: el año cuando fue otorgado un crédito, la edad de la persona que recibe el crédito, etc.
               h3.mb-3 Ejemplo:
               p.mb-5 Se puede dividir la muestra de las personas a quienes les fue otorgado un crédito de consumo, en 7 subgrupos por edad, cada letra corresponde a un grupo: a) 18-27 años, b) 28-37 años, c) 38-47 años, d) 48-57 años, e) 58-67 años, f) 68-77 años, g) 78-88 años.
 
-          .row(titulo="Muestreo sistemático")
+          .row.justify-content-around.align-items-center(titulo="Muestreo sistemático")
             .col-md-10.mb-4.mb-md-0
               p.mb-5 Se utiliza cuando el muestreo aleatorio simple no se puede llevar a cabo por algún motivo.
               h3.mb-3 Ejemplo:
@@ -96,7 +96,8 @@
 
         .col-md.col-lg-8
           p.mb-4 Para reforzar los conceptos sobre este tema, se invita a leer el libro digital Estadística de Mario Triolla de 2018, que se encuentra en el material complementario y puede ser consultado en la biblioteca digital SENA.
-  
+
+
       
 </template>
 
