@@ -281,7 +281,7 @@
             p.mb-5 Escribe en un lenguaje etiquetado especial llamado <i>Markdown</i>, se obtiene en la pestaña de nombre Texto. 
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 12</b>
                     p Pantalla de inicio Google Colab
@@ -294,7 +294,7 @@
         
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 12</b>
                     p Pantalla de inicio Google Colab
@@ -314,7 +314,7 @@
         
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 13</b>
                     p Pantalla de inicio GC
@@ -332,7 +332,7 @@
         
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 13</b>
                     p Pantalla de inicio GC
@@ -364,7 +364,7 @@
         
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 14</b>
                     p Primeras cinco filas del Data Frame
@@ -394,7 +394,7 @@
         
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 15</b>
                     p Últimas cinco filas
@@ -409,7 +409,7 @@
             p.mb-0 <i>df.nunique() </i>
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 16</b>
                     p Tipos de datos
@@ -426,7 +426,7 @@
         
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 17</b>
                     p Estadísticas básicas columna edad
@@ -443,7 +443,7 @@
         
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 18</b>
                     p Reemplazar en la columna sexo
@@ -463,7 +463,7 @@
         
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 19</b>
                     p Muestra aleatoria 10 %
@@ -481,7 +481,7 @@
         
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 20</b>
                     p Muestra aleatoria
@@ -495,7 +495,7 @@
 
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 21</b>
                     p Forma de descarga documento
