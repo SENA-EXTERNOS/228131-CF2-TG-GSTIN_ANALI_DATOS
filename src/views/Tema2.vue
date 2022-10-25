@@ -86,7 +86,7 @@
             
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 1</b>
                   p Créditos de consumo
@@ -99,7 +99,7 @@
         
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 1</b>
                   p Créditos de consumo
