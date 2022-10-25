@@ -562,6 +562,11 @@
             td Estadística_básica.ipynb
             td Celda 4
 
+    .row.mt-5
+      .col-10.col-lg-8.offset-1.offset-lg-2.position-relative
+        .cajon.fch.p-4.mb-4
+          p.mb-0 Estimado aprendiz, ha llegado al final de este componente formativo. Ahora se le invita a resolver la actividad de aprendizaje para afianzar sus conocimientos y determinar su nivel de aprendizaje en las temáticas estudiadas. 
+
 </template>
 
 <script>

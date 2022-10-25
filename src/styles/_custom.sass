@@ -45,8 +45,99 @@
 .fcg
   background-color: #F5FAFE !important
 
+.fch
+  background-color: #FFF2CA !important
+
 .fcz
   background-color: #4DD0E1 !important
 
 .acordion__accion__btn--a 
   background-color: #FECA2E !important
+
+
+
+
+
+
+
+
+
+.nav-holder2
+  display: inline-block
+  margin: 10px 5px
+  overflow: hidden
+  position: relative
+  -webkit-transform: translateZ(0)
+  -moz-transform: translateZ(0)
+  transform: translateZ(0)
+
+.nav-holder2 *, .nav-holder2 *:before, .nav-holder2 *:after
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  transition: all 0.45s ease
+
+.nav-holder2:before
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  content: ''
+  background-color: #88E0EF
+  opacity: 0.8
+  z-index: 888
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  -ms-transition: all 0.45s ease
+  transition: all 0.45s ease
+
+
+.nav-holder2:before
+  -webkit-transform: translateY(80%)
+  -moz-transform: translateY(80%)
+  transform: translateY(80%)
+
+.nav-holder2:hover:before
+  -webkit-transform: translateY(0)
+  -moz-transform: translateY(0)
+  transform: translateY(0)
+  opacity: 0.9
+  -webkit-transition-delay: 0.1s
+  -moz-transition-delay: 0.1s
+  transition-delay: 0.1s
+  border-top-left-radius: 14px
+  border-top-right-radius: 14px
+
+.nav-holder2
+  .text
+    position: absolute
+    top: 73%
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 999
+    bottom: 0
+    padding: 1em
+  img
+    backface-visibility: hidden
+    max-width: 100%
+    vertical-align: top
+    z-index: 0
+  p
+    margin: 0
+    opacity: 0
+    line-height: 1.2em
+
+.nav-holder2 .h4
+  margin: 0
+  opacity: 1
+
+.nav-holder2:hover
+  .text
+    top: 5%
+  h4, p
+    color: #12263F
+    opacity: 1
