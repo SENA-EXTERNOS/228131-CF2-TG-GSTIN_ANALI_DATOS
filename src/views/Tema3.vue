@@ -44,7 +44,7 @@
 
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 3</b>
                   p Frecuencia de edades
@@ -80,7 +80,7 @@
 
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 4</b>
                   p Caracterización del ciudadano
@@ -95,7 +95,7 @@
 
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 5</b>
                   p Frecuencias cabeza de hogar
@@ -110,7 +110,7 @@
 
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 6</b>
                   p Valores de columnas nombre y sexo
@@ -125,7 +125,7 @@
 
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 7</b>
                   p Mes de beneficio préstamo
@@ -150,7 +150,7 @@
             
 
           .col-md-6
-            .titulo-sexto.color-acento-botones
+            .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 8</b>
                   p Últimos datos de la población
@@ -165,7 +165,7 @@
 
           .col-md-6
             figure
-              .titulo-sexto.color-acento-botones
+              .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 9</b>
                   p Muestra aleatoria
@@ -174,7 +174,7 @@
 
     p.mb-5 Muestra aleatoria de un tamaño predefinido de 15 elementos
 
-    .titulo-sexto.color-acento-botones
+    .titulo-sexto.color-acento-contenido
       p.mb-0 
         p.mb-1 <b>Figura 10</b>
         p Muestra aleatoria de 15 elementos de la población
@@ -192,7 +192,7 @@
 
     p.mb-5 Muestra aleatoria de un 10 % de la población.
 
-    .titulo-sexto.color-acento-botones
+    .titulo-sexto.color-acento-contenido
       p.mb-0 
         p.mb-1 <b>Figura 11</b>
         p Muestra aleatoria de un 10% de la población
@@ -229,11 +229,11 @@
           .tarjeta.fce
             .p-4
               p Se debe realizar el muestreo aleatorio en cada estrato. Por ejemplo, tomar los que fueron beneficiados en el 2018, que son 8765 y, de allí tomar la muestra aleatoria con un tamaño representativo determinado. (Ver Tabla 1)
-    .titulo-sexto.color-acento-botones
+    .titulo-sexto.color-acento-contenido
       p.mb-0 
         p.mb-1 <b>Tabla 1</b> Años vs beneficiarios del crédito
     
-    .tabla-a.color-acento-botones.justify-content-around.align-items-center.mb-5 
+    .tabla-a.color-acento-contenido.justify-content-around.align-items-center.mb-5 
       table
         caption <b>Nota</b> Muestra los años y el número de beneficiarios del crédito de consumo. 
         thead
