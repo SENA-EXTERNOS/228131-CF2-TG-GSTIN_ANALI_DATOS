@@ -550,23 +550,26 @@
             td Manejo de Google Colab 
             td .PDF
             td Manejo de Google Colab.pdf
-            td 
-              a(:href="obtenerLink('/downloads/archivo.pdf')" target="_blank")
-                img(src="@/assets/template/icono-pdf.svg")
+            td(href="obtenerLink('downloads/prueba.pdf')" target="_blank") 
+              a.anexo.mb-4(:href="obtenerLink('/downloads/archivo.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-pdf.svg")
           tr
             td Créditos de consumo 
             td .CSV
             td Creditos_de_consumo_otorgados.csv
-            td 
-              a(:href="obtenerLink('/downloads/archivo.pdf')" target="_blank")
-                img(src="@/assets/template/icono-csv.svg")
+            td(href="obtenerLink('downloads/prueba.pdf')" target="_blank") 
+              a.anexo.mb-4(:href="obtenerLink('/downloads/archivo.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-csv.svg")
           tr
             td Graficos Ploty
             td .IPYNB
             td Estadística_básica.ipynb
-            td 
-              a(:href="obtenerLink('/downloads/archivo.pdf')" target="_blank")
-                img(src="@/assets/template/icono-ipynb.svg")
+            td(href="obtenerLink('downloads/prueba.pdf')" target="_blank") 
+              a.anexo.mb-4(:href="obtenerLink('/downloads/archivo.pdf')" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-ipynb.svg")
 
     .row.mt-5
       .col-10.col-lg-8.offset-1.offset-lg-2.position-relative
