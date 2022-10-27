@@ -550,17 +550,23 @@
             td Manejo de Google Colab 
             td .PDF
             td Manejo de Google Colab.pdf
-            td Celda 4
+            td 
+              a(:href="obtenerLink('/downloads/archivo.pdf')" target="_blank")
+                img(src="@/assets/template/icono-pdf.svg")
           tr
             td Créditos de consumo 
             td .CSV
             td Creditos_de_consumo_otorgados.csv
-            td Celda 4
+            td 
+              a(:href="obtenerLink('/downloads/archivo.pdf')" target="_blank")
+                img(src="@/assets/template/icono-csv.svg")
           tr
             td Graficos Ploty
             td .IPYNB
             td Estadística_básica.ipynb
-            td Celda 4
+            td 
+              a(:href="obtenerLink('/downloads/archivo.pdf')" target="_blank")
+                img(src="@/assets/template/icono-ipynb.svg")
 
     .row.mt-5
       .col-10.col-lg-8.offset-1.offset-lg-2.position-relative
