@@ -18,7 +18,7 @@
               p A continuación, se explican los diferentes tipos de variables mediante la teoría y la práctica, a través un ejemplo real, con gráficos generados dentro de <i>Google Colab</i>, utilizando el lenguaje <i>Python</i>. 
 
 
-    LineaTiempoC.tarjeta.fci(text-small).mb-5
+    LineaTiempoC.tarjeta.fci.color-acento-botones(text-small).mb-5
       .row(titulo="Obtener los datos")
         .col-md-6.mb-4.mb-md-0
           p Para estos gráficos se tomaron unos datos de créditos de consumo, otorgados en Medellín, obtenidos de la página de datos abiertos de la alcaldía de Medellín en formato CSV.
