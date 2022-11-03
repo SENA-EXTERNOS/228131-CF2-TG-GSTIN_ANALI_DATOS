@@ -47,7 +47,7 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 3</b>
-                  p Frecuencia de edades
+                  p <i>Frecuencia de edades</i>
               img(src='@/assets/curso/temas/T3/img-3.png', alt='Texto que describa la imagen')
               figcaption <b>Nota.</b> Muestra la edad con su frecuencia en orden descendente. 
 
@@ -83,7 +83,7 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 4</b>
-                  p Caracterización del ciudadano
+                  p <i>Caracterización del ciudadano</i>
               img(src='@/assets/curso/temas/T3/img-5.png', alt='Texto que describa la imagen')
               figcaption <b>Nota.</b> Muestra los valores de la columna Caracterización del ciudadano, con su frecuencia en orden descendente.
 
@@ -98,7 +98,7 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 5</b>
-                  p Frecuencias cabeza de hogar
+                  p <i>Frecuencias cabeza de hogar</i>
               img(src='@/assets/curso/temas/T3/img-6.png', alt='Texto que describa la imagen')
               figcaption <b>Nota.</b> Muestra los valores de la columna Cabeza de hogar con su frecuencia en orden descendente. 
 
@@ -113,7 +113,7 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 6</b>
-                  p Valores de columnas nombre y sexo
+                  p <i>Valores de columnas nombre y sexo</i>
               img(src='@/assets/curso/temas/T3/img-7.png', alt='Texto que describa la imagen')
               figcaption <b>Nota.</b> Muestra los valores de la columna de nombre sexo correspondiente al género.  
 
@@ -128,7 +128,7 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 7</b>
-                  p Mes de beneficio préstamo
+                  p <i>Mes de beneficio préstamo</i>
               img(src='@/assets/curso/temas/T3/img-8.png', alt='Texto que describa la imagen')
               figcaption <b>Nota.</b> Muestra el mes del beneficio del préstamo con su frecuencia de forma descendente. 
 
@@ -153,7 +153,7 @@
             .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 8</b>
-                  p Últimos datos de la población
+                  p <i>Últimos datos de la población</i>
             figure
               img(src='@/assets/curso/temas/T3/img-10.png', alt='Texto que describa la imagen')
               figcaption <b>Nota.</b> Muestra los últimos datos de la población.  
@@ -168,7 +168,7 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 9</b>
-                  p Muestra aleatoria
+                  p <i>Muestra aleatoria</i>
               img(src='@/assets/curso/temas/T3/img-11.png', alt='Texto que describa la imagen')
               figcaption <b>Nota.</b> Muestra aleatoria de 15 elementos de la población de 1215.   
 
@@ -177,7 +177,7 @@
     .titulo-sexto.color-acento-contenido
       p.mb-0 
         p.mb-1 <b>Figura 10</b>
-        p Muestra aleatoria de 15 elementos de la población
+        p <i>Muestra aleatoria de 15 elementos de la población</i>
 
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
@@ -195,7 +195,7 @@
     .titulo-sexto.color-acento-contenido
       p.mb-0 
         p.mb-1 <b>Figura 11</b>
-        p Muestra aleatoria de un 10% de la población
+        p <i>Muestra aleatoria de un 10% de la población</i>
 
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
@@ -231,10 +231,10 @@
               p Se debe realizar el muestreo aleatorio en cada estrato. Por ejemplo, tomar los que fueron beneficiados en el 2018, que son 8765 y, de allí tomar la muestra aleatoria con un tamaño representativo determinado. (Ver Tabla 1)
     .titulo-sexto.color-acento-contenido
       p.mb-0 
-        p.mb-1 <b>Tabla 1</b> Años vs beneficiarios del crédito
+        p.mb-1 <b>Tabla 1</b> <i>Años vs beneficiarios del crédito</i>
     
     .tabla-a.color-acento-contenido.justify-content-around.align-items-center.mb-5 
-      table
+      table.tabla1
         caption <b>Nota</b> Muestra los años y el número de beneficiarios del crédito de consumo. 
         thead
           tr

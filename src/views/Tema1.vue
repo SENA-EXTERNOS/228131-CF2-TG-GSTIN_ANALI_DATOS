@@ -63,7 +63,7 @@
         figure
           img(src='@/assets/curso/temas/T1/img-2.svg')
       .col-9
-        AcordionA.mb-5(tipo="a" clase-tarjeta="fcb")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fcb")
           .row.justify-content-around.align-items-center(titulo="Muestreo aleatorio simple")
             .col-md-10.mb-4.mb-md-0
               p.mb-5 Es una técnica de muestreo donde todos los individuos que conforman la muestra tienen la misma probabilidad de ser elegidos. Si el individuo puede ser seleccionado más de una vez estamos en presencia de un muestreo aleatorio simple con reposición, en caso contrario, sería muestreo aleatorio simple sin reposición.

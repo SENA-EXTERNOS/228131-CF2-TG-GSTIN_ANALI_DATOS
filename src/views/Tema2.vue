@@ -18,10 +18,9 @@
               p A continuación, se explican los diferentes tipos de variables mediante la teoría y la práctica, a través un ejemplo real, con gráficos generados dentro de <i>Google Colab</i>, utilizando el lenguaje <i>Python</i>. 
 
 
-    LineaTiempoC.fcc(text-small).mb-5
+    LineaTiempoC.tarjeta.fci(text-small).mb-5
       .row(titulo="Obtener los datos")
         .col-md-6.mb-4.mb-md-0
-          h3.mb-3 Obtener los datos
           p Para estos gráficos se tomaron unos datos de créditos de consumo, otorgados en Medellín, obtenidos de la página de datos abiertos de la alcaldía de Medellín en formato CSV.
       
         .col-md-6
@@ -30,7 +29,6 @@
           
       .row(titulo="Importar librería")
         .col-md-6.mb-4.mb-md-0
-          h3.mb-3 Importar librería
           p Se realiza dentro de <i>Google Colab</i>, importando la librería panda, mediante <i>import</i> pandas as pd, que es la abreviación de pandas.
       
         .col-md-6
@@ -39,7 +37,6 @@
 
       .row(titulo="Lectura del archivo CSV")
         .col-md-6.mb-4.mb-md-0
-          h3.mb-3 Lectura del archivo CSV 
           ul.lista-ul
             li 
               i.fas.fa-angle-right
@@ -60,7 +57,6 @@
 
       .row(titulo="Obtener las primeras cinco filas")
         .col-md-6.mb-4.mb-md-0
-          h3.mb-3 Obtener las primeras cinco filas
           p La sentencia df.head (5) nos permite ver las primeras 5 filas del <i>data frame</i>, en este caso se llamó df puede tener cualquier nombre.
       
         .col-md-6
@@ -89,7 +85,7 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 1</b>
-                  p Créditos de consumo
+                  p <i>Créditos de consumo</i>
               img(src='@/assets/curso/temas/T2/img-6.png', alt='Texto que describa la imagen')
               figcaption <b>Nota.</b> Muestra las columnas de los créditos de consumo otorgados. 
 
@@ -102,7 +98,7 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 1</b>
-                  p Créditos de consumo
+                  p <i>Créditos de consumo</i>
               img(src='@/assets/curso/temas/T2/img-6.png', alt='Texto que describa la imagen')
               figcaption <b>Nota.</b> Muestra las columnas de los créditos de consumo otorgados. 
             
@@ -115,7 +111,7 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0 
                   p.mb-1 <b>Figura 2</b>
-                  p Tipos de datos
+                  p <i>Tipos de datos</i>
               img(src='@/assets/curso/temas/T2/img-7.png', alt='Texto que describa la imagen')
               figcaption <b>Nota.</b> Muestra información sobre los tipos de datos de las columnas.
 

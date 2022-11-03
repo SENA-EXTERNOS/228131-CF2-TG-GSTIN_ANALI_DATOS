@@ -22,7 +22,7 @@
           figure
             img(src='@/assets/curso/temas/T4/img-2.png')
         .col-9
-          AcordionA.mb-5(tipo="a" clase-tarjeta="fcb")
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fcb")
             .row.justify-content-around.align-items-center(titulo="Diseño de instrumentos")
               .col-8.col-sm-6.col-md-2.mb-4.mb-md-0
                 img(src="@/assets/curso/temas/T4/img-3.svg")
@@ -65,8 +65,6 @@
       .py-4.py-md-5(titulo="Ejemplo de cuestionario" :icono="require('@/assets/curso/temas/T4/img-7.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Ejemplo de cuestionario:
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
             ol.lista-ol--cuadro
               li 
                 .lista-ol--cuadro__vineta
@@ -90,7 +88,6 @@
       .py-4.py-md-5(titulo="Ejemplo de recolección de datos" :icono="require('@/assets/curso/temas/T4/img-8.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Ejemplo de recolección de datos:
             p.mb-4 Se quiere vender un producto conocido en un negocio de la localidad se necesita saber:
             p.mb-4 Se debe averiguar la edad de la persona a encuestar, el género, si consume el producto, con qué frecuencia consume el producto, si tiene hora fija para consumir el producto, si los miembros de la familia consumen el producto, si el hábito de compra del producto ha sido influenciado por las promociones en redes sociales. Además, indagar sobre el promedio mensual (cuánto gasta en el producto), la condición de salud del entrevistado. Asimismo, se plantea una pregunta abierta sobre el producto, qué necesitaría para cambiar de marca y el orden de importancia de otros productos referente al del estudio, etc.
         
@@ -101,7 +98,6 @@
       .py-4.py-md-5(titulo="Ejemplo de preguntas para un cuestionario" :icono="require('@/assets/curso/temas/T4/img-9.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Ejemplo de preguntas para un cuestionario:
             p.mb-4 Se quiere hacer una encuesta para un negocio de venta online posibles preguntas:
             p.mb-4 En una escala del 1 al 10 recomendaría nuestro comercio a un amigo o familiar.
             p.mb-4 En una escala del 1 al 10 con base a su experiencia de usuario, ¿qué tan satisfecho se siente?
@@ -140,7 +136,7 @@
 
     h3.mb-5 Verificación de la calidad: 
     p.mb-5 Medir el nivel de confiablidad, validez y calidad de los datos, permite encontrar e identificar errores que pueden corregirse y, valorar si estos son adecuados para la finalidad requerida. 
-    .row.justify-content-center(data-aos="fade-down").mt-5
+    .row.justify-content-center(data-aos="fade-down").mb-5
       .col-10.col-lg-4
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.px-0
@@ -174,7 +170,7 @@
     h2.mb-5 Ejemplo encuesta Invamer
     p.mb-5 Para ampliar y consolidar los aprendizajes, se muestra a continuación un ejemplo que ilustra el uso de los instrumentos de recolección estadístico, mediante una empresa colombiana dedicada a la investigación y asesoría de mercado.
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="fcf")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fcb")
       .row(titulo="Encuesta Invamer resultó")
         .col-md-12.mb-4.mb-md-0
           p.mb-3 el 34 % de los colombianos consideran que el desempleo y la economía, son los mayores problemas del país (Infobae, 2022) y (El espectador, 2022).
@@ -284,7 +280,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 12</b>
-                    p Pantalla de inicio Google Colab
+                    p <i>Pantalla de inicio Google Colab</i>
               img(src='@/assets/curso/temas/T4/img-21.png', alt='Texto que describa la imagen')
               figcaption Nota.  Pantalla de inicio de Google Colab
 
@@ -297,7 +293,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 12</b>
-                    p Pantalla de inicio Google Colab
+                    p <i>Pantalla de inicio Google Colab</i>
               img(src='@/assets/curso/temas/T4/img-21.png', alt='Texto que describa la imagen')
               figcaption Nota.  Pantalla de inicio de Google Colab
 
@@ -317,7 +313,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 13</b>
-                    p Pantalla de inicio GC
+                    p <i>Pantalla de inicio GC</i>
               img(src='@/assets/curso/temas/T4/img-22.png', alt='Texto que describa la imagen')
               figcaption Nota. Importar la librería math y utiliza la función potencia: pow().
 
@@ -335,7 +331,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 13</b>
-                    p Pantalla de inicio GC
+                    p <i>Pantalla de inicio GC</i>
               img(src='@/assets/curso/temas/T4/img-22.png', alt='Texto que describa la imagen')
               figcaption Nota. Importar la librería math y utiliza la función potencia: pow().
 
@@ -367,7 +363,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 14</b>
-                    p Primeras cinco filas del Data Frame
+                    p <i>Primeras cinco filas del Data Frame</i>
               img(src='@/assets/curso/temas/T4/img-25.png', alt='Texto que describa la imagen')
               figcaption Nota. Muestra las primeras 5 filas del data frame de créditos de consumo otorgados. 
 
@@ -397,7 +393,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 15</b>
-                    p Últimas cinco filas
+                    p <i>Últimas cinco filas</i>
               img(src='@/assets/curso/temas/T4/img-27.png', alt='Texto que describa la imagen')
               figcaption Nota. Muestra las últimas 5 filas del data frame de créditos de consumo otorgados. 
 
@@ -412,7 +408,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 16</b>
-                    p Tipos de datos
+                    p <i>Tipos de datos</i>
               img(src='@/assets/curso/temas/T4/img-28.png', alt='Texto que describa la imagen')
               figcaption Nota.  Muestra los tipos de datos y valores únicos del  data frame de créditos de consumo otorgados. 
             
@@ -429,7 +425,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 17</b>
-                    p Estadísticas básicas columna edad
+                    p <i>Estadísticas básicas columna edad</i>
               img(src='@/assets/curso/temas/T4/img-29.png', alt='Texto que describa la imagen')
               figcaption Nota. Muestra las estadísticas básicas de la columna edad del  data frame de créditos de consumo otorgados.
 
@@ -446,7 +442,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 18</b>
-                    p Reemplazar en la columna sexo
+                    p <i>Reemplazar en la columna sexo</i>
               img(src='@/assets/curso/temas/T4/img-30.png', alt='Texto que describa la imagen')
               figcaption Nota. Muestra como remplazar en la columna sexo masculino por M y femenino por F del data frame de créditos de consumo otorgados. 
 
@@ -466,7 +462,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 19</b>
-                    p Muestra aleatoria 10 %
+                    p <i>Muestra aleatoria 10 %</i>
               img(src='@/assets/curso/temas/T4/img-31.png', alt='Texto que describa la imagen')
               figcaption Nota.  Muestra una muestra aleatoria con el 10% de la población del data frame de créditos de consumo otorgados. 
 
@@ -484,7 +480,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 20</b>
-                    p Muestra aleatoria
+                    p <i>Muestra aleatoria</i>
               img(src='@/assets/curso/temas/T4/img-32.png', alt='Texto que describa la imagen')
               figcaption Nota. Muestra una muestra aleatoria de 10 elementos de la población 12152 del data frame de créditos de consumo otorgados. 
 
@@ -498,7 +494,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 <b>Figura 21</b>
-                    p Forma de descarga documento
+                    p <i>Forma de descarga documento</i>
               img(src='@/assets/curso/temas/T4/img-33.png', alt='Texto que describa la imagen')
               figcaption Nota. Muestra la forma de descargar el documento jupyter note book con extesion .ipynb o .py
 
@@ -537,7 +533,7 @@
     p.mb-5 Para una mejor comprensión del video, el manejo de <i>Google Colab</i>, es importante descargar los 3 archivos adjuntos:
 
    
-    .tabla-a.color-acento-botones.mb-5 
+    .tabla-a.color-acento-contenido.mb-5 
       table
         thead
           tr
@@ -572,7 +568,7 @@
                   img(src="@/assets/template/icono-ipynb.svg")
 
     .row.mt-5
-      .col-10.col-lg-8.offset-1.offset-lg-2.position-relative
+      .tarjeta.col-md-10.mx-auto.p-4.mb-5
         .cajon.fch.p-4.mb-4
           p.mb-0 Estimado aprendiz, ha llegado al final de este componente formativo. Ahora se le invita a resolver la actividad de aprendizaje para afianzar sus conocimientos y determinar su nivel de aprendizaje en las temáticas estudiadas. 
 
