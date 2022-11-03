@@ -6,7 +6,7 @@
     .row.mb-0.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido.mb-5
-          h2 Falso / verdadero
+          h2 Estadística básica
 
 
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
