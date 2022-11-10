@@ -60,6 +60,8 @@
               .col-md.col-lg-6
                 p.mb-4 Un cuestionario es un documento, con un conjunto de preguntas que deben estar organizadas, secuenciadas y estructuradas para sacar la mayor información de las respuestas.
 
+    p.mb-5 A continuación, se encuentran algunos ejemplos de aplicación de instrumentos de recolección, utilizados en estadística básica.
+
 
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Ejemplo de cuestionario" :icono="require('@/assets/curso/temas/T4/img-7.svg')")
@@ -222,7 +224,7 @@
         .col-md-12.mb-4.mb-md-0
           p Se calculó dividiendo el porcentaje del universo de las variables, rango de edad y nivel socioeconómico, sobre el porcentaje de la muestra para las mismas variables.
 
-
+    h5.mb-3 Análisis de la ficha técnica
     .p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-2
@@ -259,6 +261,8 @@
             figure
               img(src='@/assets/curso/temas/T4/img-19.png', alt='Texto que describa la imagen')
 
+    h5.mb-4 Introducción a <i>Google Colab</i>
+
     .p-3.mb-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-2
@@ -269,7 +273,7 @@
               p.mb-3 En <i>Google Colab</i> se tienen máquinas virtuales con tarjetas gráficas que Google facilita. Además, permite ejecutar código en el lenguaje <i>Python</i>, dentro de la nube, con el formato de <i>Jupyter notebook</i> extensión ipynb.
               p.mb-3 <i>Jupyter notebook</i> se puede utilizar localmente o en la nube con <i>Google Colab</i>. Para usarlo localmente se debe tener instalado en el computador (Google Colab, 2022).
 
-    .tarjeta.tarjeta--azul.p-4.mb-5
+    .tarjeta.color-tarjetas.p-4.mb-5
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -534,7 +538,7 @@
 
    
     .tabla-a.color-acento-contenido.mb-5 
-      table
+      table.tabla1
         thead
           tr
             th Tema
@@ -569,7 +573,7 @@
 
     .row.mt-5
       .tarjeta.col-md-10.mx-auto.p-4.mb-5
-        .cajon.fch.p-4.mb-4
+        .cajon.color-acento-botones.p-4.mb-4.color-final
           p.mb-0 Estimado aprendiz, ha llegado al final de este componente formativo. Ahora se le invita a resolver la actividad de aprendizaje para afianzar sus conocimientos y determinar su nivel de aprendizaje en las temáticas estudiadas. 
 
 </template>

@@ -38,7 +38,7 @@
           .col-md-6.mb-4.mb-md-0
             h3.mb-5 Edad es una variable numérica 
             p.mb-3 entera o discreta, tomando valores: 70, 55, 53, 45, 28, etc. 
-            p.mb-1 dtype:int 64, significa el tipo de dato, en este caso toma valores enteros de 64 bits.
+            p.mb-1 <i>dtype</i>:int 64, significa el tipo de dato, en este caso toma valores enteros de 64 bits.
             p.mb-3 En la figura se observa la edad, con su frecuencia en orden descendente, es decir, de la mayor frecuencia en edad; en este caso para 70 años tiene una frecuencia de 514 individuos o datos. Le sigue una edad de 55 años con una frecuencia de 290 individuos o datos y así sucesivamente.
 
 

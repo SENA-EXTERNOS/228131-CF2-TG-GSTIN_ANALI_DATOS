@@ -65,11 +65,11 @@
     
     p.mb-5 Un <i>data frame</i> es una estructura de datos con dos dimensiones (filas y columnas), se pueden guardar datos de distintos tipos (caracteres, enteros, valores de punto flotante, etc.) en columnas. Es similar a una hoja de cálculo o una tabla de SQL. Continuando con el ejemplo de créditos otorgados, se deben observar los gráficos que ilustran las operaciones realizadas sobre la data.
 
-    .tarjeta.tarjeta--azul.p-4.mb-5
+    .tarjeta.color-tarjetas.p-4.mb-5
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
-            p.mb-3 El data frame se observa en el (Figura 1). Contiene las primeras filas del data frame, con un total de 12 columnas. 
+            p.mb-3 El <i>data frame</i> se observa en el (Figura 1). Contiene las primeras filas del data frame, con un total de 12 columnas. 
             p.mb-3 Las columnas son:
             p.mb-0 ['edad', 'sexo', 'cabeza_de_hogar', 'caracterizacion_ciudadano', 'estrato', 
             p.mb-0 'barrio_vereda', 'comuna', 'zona', 
