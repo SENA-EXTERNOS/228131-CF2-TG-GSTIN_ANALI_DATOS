@@ -86,11 +86,11 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-8
-        .cajon.color-acento-botones.p-4.mb-4.color-final
-          .col-4.col-sm-6.col-md-2.mb-2
+        .cajon.color-acento-botones.p-4.mb-4.color-final.row.justify-content-center.align-items-center
+          .col-sm-6.col-md-2.mb-2
             img(src="@/assets/curso/temas/T1/img-3.svg")
           
-          .col-md.col-lg-8 
+          .col-md-10.col-sm-4 
             p Para reforzar los conceptos sobre este tema, se invita a leer el libro digital Estadística de Mario Triolla de 2018, que se encuentra en el material complementario y puede ser consultado en la biblioteca digital SENA.
 
       
