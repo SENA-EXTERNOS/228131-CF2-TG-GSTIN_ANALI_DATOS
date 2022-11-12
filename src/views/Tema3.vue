@@ -233,24 +233,25 @@
       p.mb-0 
         p.mb-1 <b>Tabla 1</b> <i>Años vs beneficiarios del crédito</i>
     
-    .tabla-a.color-acento-contenido.justify-content-around.align-items-center.mb-5 
-      table.tabla1
-        caption <b>Nota</b> Muestra los años y el número de beneficiarios del crédito de consumo. 
-        thead
-          tr
-            th Años de los beneficiarios del crédito
-            th Número de beneficiarios del crédito
-        tbody
-          tr
-            td 2017
-            td 1921
-          tr
-            td 2018
-            td 8765
-          tr
-            td 2019
-            td 1466
-          
+    .row.mt-5
+      .col-10.offset-1  
+        .tabla-a.color-acento-contenido.mb-5 
+          table
+            caption.mt-3 <b>Nota</b> Muestra los años y el número de beneficiarios del crédito de consumo. 
+            thead
+              tr
+                th Años de los beneficiarios del crédito
+                th Número de beneficiarios del crédito
+            tbody.text-center
+              tr.color-tablas
+                td 2017
+                td 1921
+              tr
+                td 2018
+                td 8765
+              tr.color-tablas
+                td 2019
+                td 1466
     
     
       

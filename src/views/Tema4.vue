@@ -546,7 +546,7 @@
             th Nombre de archivo
             th Enlace/botón de descarga
         tbody
-          tr
+          tr.color-tablas
             td Manejo de Google Colab 
             td .PDF
             td Manejo de Google Colab.pdf
@@ -560,7 +560,7 @@
             td 
               a.w-80(:href="obtenerLink('/downloads/creditos_de_consumo_otorgados.csv')" target="_blank")
                 img(src="@/assets/template/icono-csv.svg")
-          tr
+          tr.color-tablas
             td Graficos Ploty
             td .IPYNB
             td Estadística_básica.ipynb
