@@ -509,7 +509,7 @@
         
       .col-md-10
         p.mb-3 Para obtener más información sobre el tema, se puede acceder a los siguientes enlaces TOOMEY, D. (2018). <i>Learning Jupyter 5: Explore Interactive Computing Using Python, Java, JavaScript, R, Julia, and JupyterLab, 2nd Edition. Birmingham, UK: Packt Publishing.</i>
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://search-ebscohost-com.bdigital.sena.edu.co/login.aspx?direct=true&db=e000xww&AN=1881491&lang=es&site=ehost-live" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
