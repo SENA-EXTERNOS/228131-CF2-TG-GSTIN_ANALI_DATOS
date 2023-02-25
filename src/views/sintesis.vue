@@ -9,7 +9,7 @@
           h3 Gestión de analítica de datos 
           em Síntesis: Estadística básica
 
-    p.mb-5 En la siguiente figura se puede observar una síntesis del componente. Que abarca estadística básica, tipos de variables, diseño de instrumentos, recolección de datos, verificación de la calidad y los componentes de todos los elementos anteriores.
+    p.mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo:
 
     .row.justify-content-center
       .col-lg-10.mb-5

@@ -17,8 +17,9 @@
           .row.justify-content-between.align-items-center
             .bloque-texto-q.color-acento-contenido.p-4
               .bloque-texto-b__texto.d-flex.flex-column
-                p.mb-3 En este componente se aprenderán las bases de la estadística básica y se utilizarán conceptos fundamentales como población, muestra, submuestra, censo, tipos de muestreo, estadísticos, variables cualitativas y cuantitativas; todo, en un conjunto de datos con la finalidad de obtener la fundamentación teórica para la compresión del análisis estadístico. Antes de continuar, se sugiere ver el video introductorio para ampliar el contexto de aprendizaje. 
-                p <b>¡Éxitos en su aprendizaje!</b>
+                p.mb-3 Estimado aprendiz, bienvenido a este componente formativo, donde se profundizan los elementos más importantes para la comprensión, asimilación y aplicación de la estadística básica, en la dinámica de las empresas y organizaciones, en general.
+                p Conviértase en experto y aplique los conceptos fundamentales que configuran la temática, identifique los elementos constitutivos de la misma, aprópiese del concepto y de las acciones de medición, recolección de información, diseño de instrumentos para recolectarla, verificación de la calidad, entre otros.
+                p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
     .row.mt-5.mb-5
       .col-12
@@ -26,9 +27,7 @@
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
-    h3.mb-3 Desarrollo de contenidos
-    p Se invita a desarrollar todo el contenido, al igual que a realizar las actividades de aprendizaje; de esa forma, al finalizar el estudio de desarrollo temático, se habrán alcanzado las competencias en estadística básica y se estará en capacidad de recopilar datos de acuerdo con la metodología estadística.
-    
+
 </template>
 
 <script>

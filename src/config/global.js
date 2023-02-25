@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Estadística básica',
     descripcionCurso:
-      'En este componente se manejan las bases de la estadística básica. Se emplean conceptos fundamentales como población, muestra, submuestra, censo, tipos de muestreo, estadísticos, variables cualitativas, variables cuantitativas. En un conjunto de datos con la finalidad de tener la fundamentación teórica para la compresión de análisis estadístico, utilizando esto para el diseño de instrumentos, recolección de datos y verificación de la calidad.',
+      'Este componente formativo, aborda generalidades y aspectos claves de la estadística básica. Se utilizan conceptos fundamentales como: población, muestra, submuestra, censo, tipos de muestreo, variables cualitativas, variables cuantitativas. Con el estudio de este componente, el aprendiz se afianzará en todo lo relacionado con datos, análisis estadístico, diseño de instrumentos, recolección de datos y verificación de la calidad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -106,37 +106,41 @@ export default {
   },
   complementario: [
     {
-      tema: 'Estadística descriptiva.',
+      tema: 'Estadística básica',
       referencia:
-        'Agilar, J. (2021). Estadística Descriptiva regresión y probabilidades con aplicaciones (1ma ed.). Ediciones de la U.',
+        'Aguilar, J. (2021). <em>Estadística Descriptiva regresión y probabilidades con aplicaciones</em>. Ediciones de la U.',
       tipo: 'Libro digital',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=15156&pg=202',
     },
     {
-      tema: 'Python practico',
+      tema:
+        'Diseño de instrumentos, recolección de datos, verificación de la calidad',
       referencia:
-        'Moreno, A., & Corcoles, S. (2020). Python practico (1ma ed.) Ediciones de la U.',
+        'Moreno, A. & Corcoles, S. (2020). <em>Python práctico</em>. Ediciones de la U.',
       tipo: 'Libro digital',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=10285&pg=1',
     },
     {
-      tema: 'Estadística',
-      referencia: 'Triolla, M. (2018). Estadística (12 ed.) Pearson Education.',
+      tema: 'Estadística básica',
+      referencia:
+        'Triolla, M. (2018). <em>Estadística</em> (12 ed.) Pearson Education.',
       tipo: 'Libro digital',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7386&pg=149',
     },
     {
-      tema: 'Learning Jupyter 5',
+      tema:
+        'Diseño de instrumentos, recolección de datos, verificación de la calidad',
       referencia:
-        'TOOMEY, D. (2018). Learning Jupyter 5: Explore Interactive Computing Using Python, Java, JavaScript, R, Julia, and JupyterLab, 2nd Edition. Birmingham, UK: Packt Publishing.',
+        'Toomey, D. (2018). <em>Learning Jupyter 5: Explore Interactive Computing Using Python, Java, JavaScript, R, Julia, and JupyterLab</em> (2nd Edition). Packt Publishing.',
       tipo: 'Libro digital',
       link:
         'https://search-ebscohost-com.bdigital.sena.edu.co/login.aspx?direct=true&db=e000xww&AN=1881491&lang=es&site=ehost-live',
     },
     {
-      tema: 'Jupyter for Data Science',
+      tema:
+        'Diseño de instrumentos, recolección de datos, verificación de la calidad',
       referencia:
-        'TOOMEY, D. (2017) Jupyter for Data Science: Your One-stop Guide to Building an Efficient Data Science Pipeline Using Jupyter. Birmingham: Packt Publishing.',
+        'Toomey, D. (2017) <em>Jupyter for Data Science: Your One-stop Guide to Building an Efficient Data Science Pipeline Using Jupyter</em>. Packt Publishing.',
       tipo: 'Libro digital',
       link:
         'https://search-ebscohost-com.bdigital.sena.edu.co/login.aspx?direct=true&db=e000xww&AN=1637911&lang=es&site=ehost-live.',
@@ -215,8 +219,63 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Altair. (2022). <em>Vega-Altair: Visualización declarativa en Python</em>.',
+      link: 'https://altair-viz.github.io/',
+    },
+    {
+      referencia:
+        '<em>Google Colaboratory</em>. (s. f.). <em>Te damos la bienvenida a Colab</em.',
+      link: 'https://colab.research.google.com/?hl=es',
+    },
+    {
+      referencia:
+        'Infobae. (022). <em>Encuesta Invamer: el 34 % de los colombianos considera que el desempleo y la economía son los mayores problemas del país</em>.',
+      link: 'https://acortar.link/UzYzDT',
+    },
+    {
+      referencia:
+        'Lind, D. & Marchal, W. (2019). <em>Estadística Aplicada a los negocios y la economía</em> (17 ed.). Mc Graw Hill.',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=9246&pg=315',
+    },
+    {
+      referencia:
+        'Matplotlib. (2022). <em>Matplotlib: visualización con Python</em>.',
+      link: 'https://matplotlib.org/',
+    },
+    {
+      referencia:
+        'Martínez, C. (2019). <em>Estadística y muestreo</em> (14 ed.). Ecoe ediciones.',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=9278&pg=387',
+    },
+    {
+      referencia:
+        'Martínez, C. (2019). <em>Estadística básica aplicada</em> (5ta ed.). Ecoe ediciones.',
+      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=8975&pg=82',
+    },
+    {
+      referencia: 'Metadata Alcaldía de Medellín. (2022).',
+      link: 'https://acortar.link/zGU2gK',
+    },
+    {
+      referencia:
+        'Seaborn. (2022). <em>Seaborn: visualización de datos estadísticos</em>.',
+      link: 'https://seaborn.pydata.org/',
+    },
+    {
+      referencia:
+        'Plotly. (2022). <em>Plotly Biblioteca de gráficos de código abierto para Python.</em>',
+      link: 'https://plotly.com/python/',
+    },
+    {
+      referencia: 'Questionpro. (2022). <em>Calculadora de Muestras</em>.',
+      link: 'https://www.questionpro.com/es/calculadora-de-muestra.html',
+    },
+    {
+      referencia:
+        'Vladimirovna, O. & Gutiérrez, E. (2016). <em>Estadística inferencial 1 para ingeniería y ciencias</em>. Grupo Editorial Patria. Recuperado de:',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/40474?page=69',
     },
   ],
   creditos: {

@@ -7,7 +7,8 @@
         span 1
       h1 Estadística básica
     
-    p.mb-5 En este componente se trabajarán términos estadísticos como: población, muestra, submuestra censo, parámetros, estadísticos, tipos de muestreo: aleatorio simple, estratificado, sistemático (Martínez, 2019), (Lind et al. 2019) y (Vladimirovna et al. 2016). 
+    p Para adentrarse en el concepto y aplicación de la estadística básica, es importante y fundamental, conocer y comprender algunos aspectos conceptuales como: población, muestra, submuestra censo, parámetros, estadísticos, tipos de muestreo: aleatorio simple, estratificado, sistemático.
+    p.mb-5 Comprenda la definición inicial de cada uno de ellos, a continuación, y procure tomar nota de lo más destacado:
 
     .row.justify-content-around.align-items-center.mb-5
       .col-lg-7.mb-4
@@ -18,7 +19,7 @@
             ul.lista-ul.mb-5
               li 
                 i.fas.fa-angle-right
-                | La población de estudiantes de la Universidad Colombiana.
+                | La población de estudiantes de la universidad colombiana.
               li 
                 i.fas.fa-angle-right
                 | La población de los beneficiarios del subsidio para el adulto mayor.
@@ -51,7 +52,8 @@
 
     h3.mb-5 Tipos de muestreo
 
-    p.mb-5 El muestreo es un proceso o conjunto de métodos, para obtener una muestra finita de una población finita o infinita para estimar valores. A continuación, se pueden conocer los tipos de muestreo.
+    p El muestreo es un proceso o conjunto de métodos, para obtener una muestra finita de una población finita o infinita para estimar valores.
+    p.mb-5 A continuación, se pueden conocer los tipos de muestreo:
 
     .row.justify-content-around.align-items-center
       .col-3 
