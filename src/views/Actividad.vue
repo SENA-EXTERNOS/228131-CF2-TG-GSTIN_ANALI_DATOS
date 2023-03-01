@@ -16,7 +16,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
       
-        p.mb-4 El propósito de esta actividad es verificar el grado de conocimientos obtenidos en el desarrollo de los contenidos de aprendizaje de este componente. Es necesario responder falso o verdadero, a cada afirmación según corresponda:
+        p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo:
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

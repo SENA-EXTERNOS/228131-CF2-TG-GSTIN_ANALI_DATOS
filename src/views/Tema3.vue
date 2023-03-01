@@ -14,8 +14,9 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.mb-3 Uno de los elementos básicos en la definición de una variable es el tipo de escala utilizada para medirla. En función de la escala seleccionada, se decide sobre su codificación, tratamiento informático y estadístico.
-              p.mb-3 Hay varios tipos de escalas de medición, que a continuación se desarrollan y ejemplifican (Martinez,2019), (Lind et al. 2019), (Vladimirovna et al. 2016).
+              p.mb-3 Uno de los elementos básicos en la definición de una variable es el tipo de escala utilizada para medirla. En función de la escala seleccionada, se decide su codificación, tratamiento informático y estadístico.
+
+              p.mb-3 Hay varios tipos de escalas de medición que, a continuación, se desarrollan y ejemplifican:
 
 
     .tarjeta.fcd.p-4.mb-5

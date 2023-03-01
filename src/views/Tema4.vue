@@ -48,10 +48,10 @@
                 ul.lista-ul
                   li 
                     i.fas.fa-angle-right
-                    | #[b La encuesta analítica] busca describir y explicar una situación en particular.
+                    p #[b La encuesta analítica] busca describir y explicar una situación en particular.
                   li 
                     i.fas.fa-angle-right
-                    | #[b La encuesta descriptiva] busca documentar una situación en particular.
+                    p #[b La encuesta descriptiva] busca documentar una situación en particular.
               
             .row.justify-content-around.align-items-center(titulo="Cuestionario")
               .col-4.col-sm-6.col-md-2.mb-4.mb-md-0
@@ -64,7 +64,7 @@
 
 
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5(titulo="Ejemplo de cuestionario" :icono="require('@/assets/curso/temas/T4/img-7.svg')")
+      .py-4.py-md-5.p-3(titulo="Ejemplo de cuestionario" :icono="require('@/assets/curso/temas/T4/img-7.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             ol.lista-ol--cuadro
@@ -87,7 +87,7 @@
             figure
               img(src='@/assets/curso/temas/T4/img-10.png', alt='Texto que describa la imagen')
 
-      .py-4.py-md-5(titulo="Ejemplo de recolección de datos" :icono="require('@/assets/curso/temas/T4/img-8.svg')")
+      .py-4.py-md-5.p-3(titulo="Ejemplo de recolección de datos" :icono="require('@/assets/curso/temas/T4/img-8.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             p.mb-4 Se quiere vender un producto conocido en un negocio de la localidad se necesita saber:
@@ -97,7 +97,7 @@
             figure
               img(src='@/assets/curso/temas/T4/img-11.png', alt='Texto que describa la imagen')
 
-      .py-4.py-md-5(titulo="Ejemplo de preguntas para un cuestionario" :icono="require('@/assets/curso/temas/T4/img-9.svg')")
+      .py-4.py-md-5.p-3(titulo="Ejemplo de preguntas para un cuestionario" :icono="require('@/assets/curso/temas/T4/img-9.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             p.mb-4 Se quiere hacer una encuesta para un negocio de venta en línea, posibles preguntas:
@@ -442,7 +442,7 @@
           .col-md-6
             figure
               .titulo-sexto.color-acento-contenido
-                p.mb-0 Reemplazar en la columna sexo.
+                p.mb-0 Reemplazar en la columna genero.
               img(src='@/assets/curso/temas/T4/img-30.png', alt='Texto que describa la imagen')
               figcaption(style='background-color: #ffffff') 
                 p Muestra como remplazar en la columna sexo masculino por M y femenino por F del data frame de créditos de consumo otorgados.

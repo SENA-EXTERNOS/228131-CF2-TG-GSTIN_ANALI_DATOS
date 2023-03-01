@@ -18,7 +18,7 @@
               p A continuación, se explican los diferentes tipos de variables con un ejemplo real, con gráficos generados dentro de #[i Google Colab], utilizando el lenguaje #[i Python]:
 
 
-    LineaTiempoC.tarjeta.fci.color-acento-botones(text-small).mb-5
+    LineaTiempoC.tarjeta.fci.color-acento-botones(text-small).mb-5.p-5
       .row(titulo="Obtener los datos")
         .col-md-6.mb-4.mb-md-0
           p Para estos gráficos, se tomaron unos datos de créditos de consumo, otorgados en Medellín, obtenidos de la página de datos abiertos de la Alcaldía de Medellín, en formato CSV.
@@ -66,7 +66,7 @@
     p Un #[i data frame] es una estructura de datos con dos dimensiones (filas y columnas), se pueden guardar datos de distintos tipos (caracteres, enteros, valores de punto flotante, etc.) en columnas. Es similar a una hoja de cálculo o una tabla de SQL. 
     p.mb-5 Continuando con el ejemplo de créditos otorgados, se deben observar, a continuación, los gráficos que ilustran las operaciones realizadas sobre la data:
 
-    .tarjeta.color-tarjetas.p-4.mb-5
+    .tarjeta.color-tarjetas.p-5.mb-5
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
