@@ -53,7 +53,7 @@
       
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/T2/img-4.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/T2/img-4.png', alt='Texto que describa la imagen').p-1
 
       .row(titulo="Obtener las primeras cinco filas")
         .col-md-6.mb-4.mb-md-0
