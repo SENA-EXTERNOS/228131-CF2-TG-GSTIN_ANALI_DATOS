@@ -7,7 +7,7 @@
         span 1
       h1 Estadística básica
     
-    p Para adentrarse en el concepto y aplicación de la estadística básica, es importante y fundamental, conocer y comprender algunos aspectos conceptuales como: población, muestra, submuestra censo, parámetros, estadísticos, tipos de muestreo: aleatorio simple, estratificado, sistemático.
+    p Para adentrarse en el concepto y aplicación de la estadística básica, es importante y fundamental, conocer y comprender algunos aspectos conceptuales como: población, muestra, submuestra, censo, parámetros, estadísticos, tipos de muestreo: aleatorio simple, estratificado, sistemático.
     p.mb-5 Comprenda la definición inicial de cada uno de ellos, a continuación, y procure tomar nota de lo más destacado:
 
     .row.justify-content-around.align-items-center.mb-5

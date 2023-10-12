@@ -155,12 +155,12 @@ export default {
     {
       termino: 'Continua',
       significado:
-        'Una variable continua es aquella que puede tomar un número infinito de valores entre dos valores cualesquiera de una característica. La altura de las 5 persona: 1.85, 1.89, 1.93, 1.59, 1.65. En la práctica medimos la altura con dos decimales, pero también se podría dar con tres decimales o más.',
+        'Una variable continua es aquella que puede tomar un número infinito de valores entre dos valores cualesquiera de una característica. La altura de las 5 personas: 1.85, 1.89, 1.93, 1.59, 1.65. En la práctica medimos la altura con dos decimales, pero también se podría dar con tres decimales o más.',
     },
     {
       termino: 'Cualitativa',
       significado:
-        'Son aquellas en la que los resultados posibles no son valores numéricos. Por ejemplo: color del pelo, tipo de ropa preferida, lugar de veraneo, etc.',
+        'Son aquellas en las que los resultados posibles no son valores numéricos. Por ejemplo: color del pelo, tipo de ropa preferida, lugar de veraneo, etc.',
     },
     {
       termino: 'Cuantitativa',
@@ -170,7 +170,7 @@ export default {
     {
       termino: 'Cuartiles',
       significado:
-        'Son 4 divide un conjunto de datos ordenados en cuatro partes iguales. Cuartil1 (Q1) 25 %, la mediana es el Cuartil 2 (Q2) 50 %, Cuartil 3 (Q3) 75 % Cuartil 4 (Q4) 100 % se trabaja principalmente con los Q1, Q2, Q3.',
+        'son 4, divide un conjunto de datos ordenados en cuatro partes iguales. Cuartil 1 (Q1) 25 %, la mediana es el Cuartil 2 (Q2) 50 %, Cuartil 3 (Q3) 75 %, Cuartil 4 (Q4) 100 %; se trabaja principalmente con los Q1, Q2, Q3.',
     },
     {
       termino: 'Dato atípico',
