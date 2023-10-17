@@ -46,7 +46,7 @@
             p.mb-3 Es importante tener en cuenta que el parámetro describe una característica de la población, mientras que el estadístico describe una característica de la muestra. Además, el estadístico se utiliza para aproximar un parámetro.
 
             
-      .col-lg-5.md-5
+      .col-lg-5.col-10
         figure(data-aos='fade-right')
           img(src='@/assets/curso/temas/T1/img-1.png', alt='')
 
