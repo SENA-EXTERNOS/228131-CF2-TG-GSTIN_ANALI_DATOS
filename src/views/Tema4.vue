@@ -366,7 +366,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 Primeras cinco filas del Data Frame de créditos de consumo otorgados.
 
-              img(src='@/assets/curso/temas/T4/img-25.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T4/4.png', alt='Texto que describa la imagen')
               
 
         .row
@@ -396,7 +396,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 
                     p.mb-1 Últimas cinco filas del data frame de créditos de consumo otorgados.
-              img(src='@/assets/curso/temas/T4/img-27.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T4/5.png', alt='Texto que describa la imagen')
               
 
         .row
@@ -411,7 +411,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 Tipos de datos.
                   
-              img(src='@/assets/curso/temas/T4/img-28.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T4/6.png', alt='Texto que describa la imagen')
               figcaption(style='background-color: #ffffff') 
                 p Muestra los tipos de datos y valores únicos del #[i data frame] de créditos de consumo otorgados.
             
@@ -428,7 +428,7 @@
               .titulo-sexto.color-acento-contenido
                   p.mb-0 Estadísticas básicas columna edad.
 
-              img(src='@/assets/curso/temas/T4/img-29.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T4/7.png', alt='Texto que describa la imagen')
               
 
         .row
@@ -443,7 +443,7 @@
             figure
               .titulo-sexto.color-acento-contenido
                 p.mb-0 Reemplazar en la columna genero.
-              img(src='@/assets/curso/temas/T4/img-30.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T4/8.png', alt='Texto que describa la imagen')
               figcaption(style='background-color: #ffffff') 
                 p Muestra como remplazar en la columna sexo masculino por M y femenino por F del data frame de créditos de consumo otorgados.
 
@@ -462,7 +462,7 @@
             figure
               .titulo-sexto.color-acento-contenido
                   p.mb-0 Muestra aleatoria 10 %.
-              img(src='@/assets/curso/temas/T4/img-31.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T4/9.png', alt='Texto que describa la imagen')
               
 
         .row
@@ -493,7 +493,7 @@
             figure
               .titulo-sexto.color-acento-contenido
                   p.mb-0 Forma de descarga documento.
-              img(src='@/assets/curso/temas/T4/img-33.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T4/10.png', alt='Texto que describa la imagen')
               figcaption(style='background-color: #ffffff') 
                 p Muestra la forma de descargar el documento Jupyter Notebook con extensión .ipynb o .py.
 

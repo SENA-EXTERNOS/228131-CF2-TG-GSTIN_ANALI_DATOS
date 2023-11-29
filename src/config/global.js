@@ -255,7 +255,8 @@ export default {
     },
     {
       referencia: 'Metadata Alcaldía de Medellín. (2022).',
-      link: 'https://acortar.link/zGU2gK',
+      link:
+        'https://www.medellin.gov.co/irj/portal/medellin?NavigationTarget=contenido/6991-MEData-el-portal-de-datos-publicos-del-Municipio-de-Medellin',
     },
     {
       referencia:

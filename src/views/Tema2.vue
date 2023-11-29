@@ -69,7 +69,7 @@
     .tarjeta.color-tarjetas.p-5.mb-5
       SlyderA(tipo="b")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-5.mb-4.mb-md-0
             p.mb-3 El #[i data frame] que se observa en la imagen, contiene las primeras filas del #[i data frame], con un total de 12 columnas.
             p.mb-3 Las columnas son:
             em
@@ -82,37 +82,37 @@
             p.mb-3 Estos nombres los asignó la persona que subió el archivo en formato CSV a #[b Metadata] alcaldía de Medellín, 2022. Generalmente hay datos faltantes, los nombres y valores de las columnas tienen errores de digitación, ortográficos, etc. Por esta razón, #[b #[u siempre se debe hacer una limpieza y depuración de los datos]].
                    
             
-          .col-md-6
+          .col-md-7
             figure
               .titulo-sexto.color-acento-contenido
                 p.mb-0 Créditos de consumo
 
-              img(src='@/assets/curso/temas/T2/img-6.png', alt='Texto que describa la imagen').mb-3
+              img(src='@/assets/curso/temas/T2/1.png', alt='Texto que describa la imagen').mb-3
               figcaption(style='background-color: #ffffff') 
                 p #[b Nota.] Muestra las columnas de los créditos de consumo otorgados.
 
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-5.mb-4.mb-md-0
             p Los datos faltantes tienen diferentes tratamientos dependiendo de: los datos, la cantidad de valores faltantes y el tipo de problema a resolver. Se debe utilizar un criterio para tratarlos. Por ejemplo, sustituirlos por el promedio de la columna, sustituirlo por el valor de la columna que está por encima o por debajo (dependiendo de la cantidad de datos faltantes se debe analizar con detalle), sustituirlo por el valor que más se repite (moda), sustituirlo por la mediana; si son pocos se podría eliminar previo a un análisis riguroso.
         
-          .col-md-6
+          .col-md-7
             figure
               .titulo-sexto.color-acento-contenido
                 p.mb-0 Créditos de consumo
-              img(src='@/assets/curso/temas/T2/img-6.png', alt='Texto que describa la imagen').mb-3
+              img(src='@/assets/curso/temas/T2/2.png', alt='Texto que describa la imagen').mb-3
               figcaption(style='background-color: #ffffff')
                 p #[b Nota.] Muestra las columnas de los créditos de consumo otorgados. 
             
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-5.mb-4.mb-md-0
             p Las columnas del archivo créditos de consumo, tienen diferentes tipos de datos. 
         
-          .col-md-6
+          .col-md-7
             figure
               .titulo-sexto.color-acento-contenido
                 p.mb-0 Tipos de datos
 
-              img(src='@/assets/curso/temas/T2/img-7.png', alt='Texto que describa la imagen').mb-3
+              img(src='@/assets/curso/temas/T2/3.png', alt='Texto que describa la imagen').mb-3
               figcaption(style='background-color: #ffffff') 
                 p #[b Nota.] Muestra información sobre los tipos de datos de las columnas.
 
